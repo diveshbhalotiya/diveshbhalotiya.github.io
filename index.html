@@ -3,78 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <!-- We are using Tailwind CSS for simple, modern styling -->
+    <title>Divesh Bhalotiya</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans leading-normal tracking-normal">
 
     <!-- Navigation Bar -->
-    <nav class="bg-white shadow-md p-4">
+    <nav class="bg-white shadow-md p-4 sticky top-0 z-50">
         <div class="container mx-auto flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold text-blue-600">MyWebsite</a>
+            <a href="#" class="text-2xl font-bold text-blue-600">Divesh Bhalotiya</a>
             <ul class="flex space-x-6">
                 <li><a href="#about" class="hover:text-blue-600">About</a></li>
+                <li><a href="#problems" class="hover:text-blue-600">Problems</a></li>
                 <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
-                <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+                <li><a href="#cv" class="hover:text-blue-600">CV</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <header class="container mx-auto mt-16 text-center px-4">
-        <h1 class="text-5xl font-bold text-gray-900 mb-4">Hello, I'm <span class="text-blue-600">[Your Name]</span></h1>
-        <p class="text-xl text-gray-600 mb-8">A passionate web developer and designer.</p>
-        <a href="#projects" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition duration-300">View My Work</a>
+        <h1 class="text-5xl font-bold text-gray-900 mb-4">Hello, I'm <span class="text-blue-600">Divesh Bhalotiya</span>[cite: 1]</h1>
+        <p class="text-xl text-gray-600 mb-8">Master's Student in Mathematics at Harish-Chandra Research Institute[cite: 1].</p>
+        <a href="#cv" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition duration-300">View My CV</a>
     </header>
 
     <!-- About Section -->
     <section id="about" class="container mx-auto mt-24 px-4 text-center">
         <h2 class="text-3xl font-bold mb-6 border-b-2 border-blue-600 inline-block pb-2">About Me</h2>
-        <p class="max-w-2xl mx-auto text-gray-600 text-lg">
-            Welcome to my corner of the internet! I love building beautiful and functional websites. 
-            I am currently learning HTML, CSS, and GitHub to share my projects with the world.
+        <p class="max-w-3xl mx-auto text-gray-600 text-lg leading-relaxed">
+            I am currently pursuing my M.Sc. in Mathematics at Harish-Chandra Research Institute, where I maintain a CGPA of 9.4[cite: 1]. 
+            Prior to this, I completed my B.Sc. in Mathematics & Computing at the Institute of Mathematics and Applications with a CGPA of 9.37[cite: 1]. 
+            My academic journey includes securing AIR 37 in IIT JAM Mathematics (2025) and qualifying for the NBHM Master's Scholarship[cite: 1].
+        </p>
+    </section>
+
+    <!-- Problems Section -->
+    <section id="problems" class="container mx-auto mt-24 px-4 text-center">
+        <h2 class="text-3xl font-bold mb-6 border-b-2 border-blue-600 inline-block pb-2">Problems</h2>
+        <p class="max-w-2xl mx-auto text-gray-600 text-lg bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-600">
+            I always like to solve basic questions related to group theory, metric space, topology.
         </p>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="container mx-auto mt-24 px-4 text-center">
-        <h2 class="text-3xl font-bold mb-10 border-b-2 border-blue-600 inline-block pb-2">My Projects</h2>
+        <h2 class="text-3xl font-bold mb-10 border-b-2 border-blue-600 inline-block pb-2">Projects & Internships</h2>
         
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Project Card 1 -->
-            <div class="bg-white p-6 rounded-lg shadow-lg">
-                <h3 class="text-xl font-bold mb-2">Project One</h3>
-                <p class="text-gray-600 mb-4">A brief description of your first cool project goes here.</p>
-                <a href="#" class="text-blue-600 font-semibold hover:underline">Read more &rarr;</a>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <!-- Project 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg text-left">
+                <h3 class="text-xl font-bold mb-2">Summer Internship Program</h3>
+                <p class="text-sm text-blue-600 mb-4">IISER Mohali (2026) | Supervisor: Dr. Vaibhav Vaish[cite: 1]</p>
+                <p class="text-gray-600">Completed the first 3 chapters of <em>An Introduction to Homological Algebra</em> by Charles A. Weibel, covering chain complexes, derived functors, and Tor and Ext[cite: 1].</p>
             </div>
 
-            <!-- Project Card 2 -->
-            <div class="bg-white p-6 rounded-lg shadow-lg">
-                <h3 class="text-xl font-bold mb-2">Project Two</h3>
-                <p class="text-gray-600 mb-4">A brief description of your second cool project goes here.</p>
-                <a href="#" class="text-blue-600 font-semibold hover:underline">Read more &rarr;</a>
-            </div>
-
-            <!-- Project Card 3 -->
-            <div class="bg-white p-6 rounded-lg shadow-lg">
-                <h3 class="text-xl font-bold mb-2">Project Three</h3>
-                <p class="text-gray-600 mb-4">A brief description of your third cool project goes here.</p>
-                <a href="#" class="text-blue-600 font-semibold hover:underline">Read more &rarr;</a>
+            <!-- Project 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg text-left">
+                <h3 class="text-xl font-bold mb-2">Bachelor's Thesis</h3>
+                <p class="text-sm text-blue-600 mb-4">Institute of Mathematics and Applications | Supervisor: Dr. Jyoti Das Gupta[cite: 1]</p>
+                <p class="text-gray-600">Conducted a comprehensive review on the Quillen-Suslin Theorem[cite: 1].</p>
             </div>
         </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="container mx-auto mt-24 px-4 text-center">
+        <h2 class="text-3xl font-bold mb-6 border-b-2 border-blue-600 inline-block pb-2">Curriculum Vitae</h2>
+        <p class="max-w-2xl mx-auto text-gray-600 text-lg mb-8">
+            You can download and review my full academic history, achievements, and conference participation below.
+        </p>
+        <a href="Divesh_Bhalotiya_CV-v4.pdf" target="_blank" class="inline-block border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-full hover:bg-blue-600 hover:text-white transition duration-300 font-semibold">
+            Download Divesh_Bhalotiya_CV-v4.pdf
+        </a>
     </section>
 
     <!-- Footer / Contact Section -->
     <footer id="contact" class="bg-gray-900 text-white mt-24 py-12 text-center">
         <h2 class="text-2xl font-bold mb-4">Get In Touch</h2>
-        <p class="mb-6 text-gray-400">Feel free to reach out for collaborations or just a friendly hello!</p>
-        <a href="mailto:your.email@example.com" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition duration-300">Email Me</a>
+        <p class="mb-6 text-gray-400">Feel free to reach out for mathematical discussions or academic inquiries.</p>
+        <a href="mailto:diveshbhalotiya02@gmail.com" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition duration-300">diveshbhalotiya02@gmail.com[cite: 1]</a>
         
         <div class="mt-8 text-gray-500 text-sm">
-            &copy; 2026 [Your Name]. All rights reserved.
+            &copy; 2026 Divesh Bhalotiya. Built for GitHub Pages.
         </div>
     </footer>
 
 </body>
-              </html>
+</html>
