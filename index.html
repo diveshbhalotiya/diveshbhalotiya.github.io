@@ -4,88 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Divesh Bhalotiya</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.6;
+            color: #000;
+            background-color: #fff;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        h1 {
+            font-size: 2.2em;
+            margin-bottom: 5px;
+        }
+        h2 {
+            font-size: 1.5em;
+            color: #333;
+            border-bottom: 1px solid #999;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+        h3 {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        a {
+            color: #0000ee;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact-info {
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+        ul {
+            margin-top: 10px;
+        }
+        li {
+            margin-bottom: 15px;
+        }
+    </style>
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans leading-normal tracking-normal">
+<body>
 
-    <!-- Navigation Bar -->
-    <nav class="bg-white shadow-md p-4 sticky top-0 z-50">
-        <div class="container mx-auto flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold text-blue-600">Divesh Bhalotiya</a>
-            <ul class="flex space-x-6">
-                <li><a href="#about" class="hover:text-blue-600">About</a></li>
-                <li><a href="#problems" class="hover:text-blue-600">Problems</a></li>
-                <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
-                <li><a href="#cv" class="hover:text-blue-600">CV</a></li>
-            </ul>
+    <header>
+        <h1>Divesh Bhalotiya</h1>
+        <div class="contact-info">
+            Master's Student in Mathematics<br>
+            Harish-Chandra Research Institute<br>
+            Email: <a href="mailto:diveshbhalotiya02@gmail.com">diveshbhalotiya02@gmail.com</a>
         </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <header class="container mx-auto mt-16 text-center px-4">
-        <h1 class="text-5xl font-bold text-gray-900 mb-4">Hello, I'm <span class="text-blue-600">Divesh Bhalotiya</span></h1>
-        <p class="text-xl text-gray-600 mb-8">Master's Student in Mathematics at Harish-Chandra Research Institute.</p>
-        <a href="#cv" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition duration-300">View My CV</a>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="container mx-auto mt-24 px-4 text-center">
-        <h2 class="text-3xl font-bold mb-6 border-b-2 border-blue-600 inline-block pb-2">About Me</h2>
-        <p class="max-w-3xl mx-auto text-gray-600 text-lg leading-relaxed">
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
             I am currently pursuing my M.Sc. in Mathematics at Harish-Chandra Research Institute.
+    </section>
+
+    <section id="problems">
+        <h2>Problems</h2>
+        <p>
+            I always like to solve basic questions related to group theory, metric space, and topology.
         </p>
     </section>
 
-    <!-- Problems Section -->
-    <section id="problems" class="container mx-auto mt-24 px-4 text-center">
-        <h2 class="text-3xl font-bold mb-6 border-b-2 border-blue-600 inline-block pb-2">Problems</h2>
-        <p class="max-w-2xl mx-auto text-gray-600 text-lg bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-600">
-            I always like to solve undergraduate questions related to group theory, metric space, topology,etc.
+    <section id="projects">
+        <h2>Projects & Internships</h2>
+        <ul>
+            <li>
+                <strong>Summer Internship Program</strong> &mdash; IISER Mohali (2026)<br>
+                <em>Supervisor:</em> Dr. Vaibhav Vaish<br>
+                Completed the first 3 chapters of <em>An Introduction to Homological Algebra</em> by Charles A. Weibel, covering chain complexes, derived functors, and Tor and Ext.
+            </li>
+            <li>
+                <strong>Bachelor's Thesis</strong> &mdash; Institute of Mathematics and Applications<br>
+                <em>Supervisor:</em> Dr. Jyoti Das Gupta<br>
+                Conducted a comprehensive review on the Quillen-Suslin Theorem.
+            </li>
+        </ul>
+    </section>
+
+    <section id="cv">
+        <h2>Curriculum Vitae</h2>
+        <p>
+            You can find my full academic history and achievements here: 
+            <a href="Divesh_Bhalotiya_CV-v4.pdf" target="_blank">Download Divesh_Bhalotiya_CV-v4.pdf</a>
         </p>
     </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="container mx-auto mt-24 px-4 text-center">
-        <h2 class="text-3xl font-bold mb-10 border-b-2 border-blue-600 inline-block pb-2">Projects & Internships</h2>
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <!-- Project 1 -->
-            <div class="bg-white p-6 rounded-lg shadow-lg text-left">
-                <h3 class="text-xl font-bold mb-2">Summer Internship Program</h3>
-                <p class="text-sm text-blue-600 mb-4">IISER Mohali (2026) | Supervisor: Dr. Vaibhav Vaish</p>
-                <p class="text-gray-600">Completed the first 3 chapters of <em>An Introduction to Homological Algebra</em> by Charles A. Weibel, covering chain complexes, derived functors, and Tor and Ext.</p>
-            </div>
-
-            <!-- Project 2 -->
-            <div class="bg-white p-6 rounded-lg shadow-lg text-left">
-                <h3 class="text-xl font-bold mb-2">Bachelor's Thesis</h3>
-                <p class="text-sm text-blue-600 mb-4">Institute of Mathematics and Applications | Supervisor: Dr. Jyoti Das Gupta</p>
-                <p class="text-gray-600">Conducted a comprehensive review on the Quillen-Suslin Theorem.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- CV Section -->
-    <section id="cv" class="container mx-auto mt-24 px-4 text-center">
-        <h2 class="text-3xl font-bold mb-6 border-b-2 border-blue-600 inline-block pb-2">Curriculum Vitae</h2>
-        <p class="max-w-2xl mx-auto text-gray-600 text-lg mb-8">
-            You can download and review my full academic history, achievements, and conference participation below.
-        </p>
-        <a href="Divesh_Bhalotiya_CV-v4.pdf" target="_blank" class="inline-block border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-full hover:bg-blue-600 hover:text-white transition duration-300 font-semibold">
-            Download Divesh_Bhalotiya_CV-v4.pdf
-        </a>
-    </section>
-
-    <!-- Footer / Contact Section -->
-    <footer id="contact" class="bg-gray-900 text-white mt-24 py-12 text-center">
-        <h2 class="text-2xl font-bold mb-4">Get In Touch</h2>
-        <p class="mb-6 text-gray-400">Feel free to reach out for mathematical discussions or academic inquiries.</p>
-        <a href="mailto:diveshbhalotiya02@gmail.com" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition duration-300">diveshbhalotiya02@gmail.com</a>
-        
-        <div class="mt-8 text-gray-500 text-sm">
-            &copy; 2026 Divesh Bhalotiya. Built for GitHub Pages.
-        </div>
-    </footer>
 
 </body>
 </html>
